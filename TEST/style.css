@@ -1,0 +1,100 @@
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+ul {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    font-size: 2vw;
+}
+
+header {
+    background-color: rgb(116, 139, 109);
+    color: white;
+}
+
+body > header {
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px; 
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 20%;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content aside {
+    width: 20%;
+}
+
+form {
+    text-align: center;
+}
+
+main > h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: rgb(116, 139, 109);
+    display: flex;  
+    list-style: none;
+}
+
+#footer-container {
+    display: flex;
+}
+
+#list1 {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+#list2 {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border-radius: 100%;
+}
+
