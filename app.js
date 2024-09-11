@@ -1,8 +1,17 @@
-function toggleIngredients(recipeId) {
-    const ingredientsList = document.getElementById(`ingredients-${recipeId}`);
-    if (ingredientsList.style.display === 'none' || ingredientsList.style.display === '') {
-        ingredientsList.style.display = 'block';
-    } else {
-        ingredientsList.style.display = 'none';
+console.log("JavaScript file is linked successfully!");
+
+document.addEventListener("DOMContentLoaded", () => {
+    
+    const images = document.querySelectorAll("img");
+
+    for (const image of images){
+        fetch("https://dog.ceo/api/breeds/image/random")
+        .then(response => response.json())
+        .then(data => {
+            image.src = data.message
+            image.width = 100;
+            image.height = 100;
+        })
     }
-}
+
+})
